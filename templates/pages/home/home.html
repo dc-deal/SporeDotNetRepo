@@ -1,0 +1,39 @@
+
+	<a 
+	ng-repeat="art in artCtrl.articles"
+	ng-href="#/home/{{art.ID}}" 
+	><!-- art.ID DB feld kommt als grosse id an -->
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			{{art.Header}}
+		</div>		
+		<div class="panel-body">
+			{{art.Content}}
+		</div>
+	</div>
+	</a>
+
+<!-- 
+
+<div class="new-note">
+  <div class="new-note-container">
+    <form class="form">
+      <fieldset>
+        <label for="title">Title</label>
+        <input name="title" ng-model="note.title"/>
+      </fieldset>
+
+      <fieldset>
+        <label for="description">Description</label>
+        <textarea name="description" ng-model="note.description"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <label for="content">Content</label>
+        <textarea name="content" ng-model="note.content"></textarea>
+      </fieldset>
+
+      <button class="btn" ng-click="noteCtrl.saveNote(note)">Save</button>
+    </form>
+  </div>
+</div> -->

@@ -1,0 +1,92 @@
+/* -- Joomla edit buttons  Frontendediting*/
+
+#editor-xtd-buttons {
+  padding: 0px;
+}
+.edit tr:hover  td {background:#eee}
+.button2-left,
+.button2-right,
+.button2-left div,
+.button2-right div {
+  float: left;
+}
+
+.button2-left a,
+.button2-right a,
+.button2-left span,
+.button2-right span {
+  display: block;
+  float: left;
+  color: #666;
+  cursor: pointer;
+}
+
+.button2-left span,
+.button2-right span {
+  cursor: default;
+  color: #999;
+}
+
+.button2-left .page a,
+.button2-right .page a,
+.button2-left .page span,
+.button2-right .page span {
+  padding: 0 6px;
+}
+
+.page span {
+  color: #000;
+  font-weight: bold;
+}
+
+
+.button2-left,
+.button2-right {
+
+  float: left;
+  margin-left: 5px;
+}
+
+
+.edit .formelm-buttons {text-align:right}
+.edit .formelm-buttons button {background:#D9EDF7; color:#095197;}
+.edit .formelm-buttons button:hover {color:#D9EDF7; background:#095197;}
+.modal-button:link,
+.modal-button:visited,
+.button2-left .readmore a:link,
+.button2-left .readmore a:visited,
+.button2-left .blank a:link,
+.button2-left .blank a:visited
+{ background-color: #D9EDF7;
+
+  color:#095197;border:solid 1px #BCE8F1; border-top:0; border-radius:0 0 3px 3px;  text-decoration:none; padding:3px}
+.button2-left a:hover,
+.button2-left .blank a:hover,
+.button2-left .readmore a:hover,
+.button2-right a:hover {
+  text-decoration: none;
+  color: #fff;
+  background:#095197;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.btn-toolbar .btn {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #D9EDF7;
+  border-image: none;
+  border-radius: 0 0 3px 3px;
+  color: #095197;
+  padding: 3px;
+  text-decoration: none;
+}
+
+div.toggle-editor {
+
+}

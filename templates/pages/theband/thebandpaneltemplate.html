@@ -1,0 +1,27 @@
+<div ng-controller="bandpanelController as bandCtrl">
+	<div class="row">
+		<div class="row-same-height row-full-height">
+			<a 
+			ng-repeat="articles in bandCtrl.articles"
+			ng-href="#/band/{{articles.ID}}" 
+			>
+			<div class="col-xs-6 col-xs-height col-full-height" >
+				
+				<div class="panel panel-default" >
+					<div class="panel-heading">
+						<h1>{{articles.ID}} || {{articles.Header }}</h1>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+								{{articles.Content }}
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+			</a>
+		</div>
+	</div>
+</div>
+<!--</slick>-->

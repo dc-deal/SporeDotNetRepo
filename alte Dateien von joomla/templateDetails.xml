@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template" client="site">
+    
+    <name>TheSporeTemplate</name>
+    <creationDate>8/22/2013</creationDate>
+    <author>Frank Krätzig</author>
+    <authorEmail>webmaster@thespore.net</authorEmail>
+    <authorUrl>http://www.TheSpore.net</authorUrl>
+    <version>1.0</version>
+    <description>Template für the Spore</description>
+    
+    <files>
+        <folder>css</folder>
+		<folder>js</folder>
+        <folder>images</folder>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>favicon.ico</filename>
+    </files>
+    
+    <positions>
+        <position>top-navigation</position>
+        <position>banner</position>
+		<position>sidebarleft</position>	
+		<position>sidebarright</position>			
+		<position>footerMenu</position>				
+		<position>NewsChest1</position>		
+		<position>NewsChest2</position>		
+		<position>NewsChest3</position>		
+		<position>NewsChest4</position>		
+    </positions>
+    
+</extension>

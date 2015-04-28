@@ -1,0 +1,210 @@
+/* ************** ALLGEMEINE FORMATIERUNGEN *********************
+*****************************************************************/
+
+@font-face { 
+    font-family: CustomFont1; 
+    src: url('../fonts/DroidSans.ttf')
+}
+
+
+@font-face { 
+    font-family: Menu; 
+    src: url('../css/fonts/LeagueGothic-Regular.otf')
+    format('opentype');
+}
+
+@font-face { 
+    font-family: Rusted; 
+    src: url('../fonts/aaaiight.ttf')
+    format('truetype');
+}
+
+
+* {
+    font-family : Menu,Arial,Helvetica, sans-serif;
+    color:#BFCDDB !important;
+    letter-spacing:2px;
+}
+
+/* ************** Sticky footer bootstrap pfusch *********************
+*****************************************************************/
+
+
+
+/* LINKA
+ * 
+ */
+
+
+a.linkclass:link
+,a:link{
+    letter-spacing:2px;
+    /*color: #E5E3BA !important;*/
+    color: #C3C19B !important;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+    text-decoration: none;
+}
+
+
+a.linkclass:visited,
+a:visited
+{
+    color: #C3C19B !important;
+    text-decoration: none;
+}
+
+a.linkclass:hover,
+a:hover{
+    color: #AB4E39 !important; 
+    text-decoration: none;
+  /*    background-color: rgba(171, 78, 57, 1); */
+}
+
+.bannerClass {
+    background-repeat:no-repeat;
+    background-size:100%;  
+    height: 100px; 
+}
+
+
+/* ************************** bootstrap override ************************
+*****************************************************************/
+
+.dropdown-menu.sidebar {
+   background: rgba(35, 39, 42, .5);    
+}
+
+.well,
+.panel{
+    border: 2px solid #AB4E39;
+    background: rgba(35, 39, 42, .5);    
+}
+
+
+.panel .panel-heading {
+    border-bottom: 2px solid #AB4E39;
+    background: rgba(35, 39, 42, 0.6);         
+}
+
+
+
+
+.navbar{
+    background:url("../img/Spore/Hintergrund/Spektrum.jpg");
+    background-position:center;
+    background-repeat: repeat-y; 
+    background-color: black;
+    /*background-size:100%;*/
+    
+    border-top:0px solid black;
+    border-left:0px solid black;
+    border-right:0px solid black;
+    
+    border-bottom: 2px solid #AB4E39;   
+}
+
+
+ .pagebg {
+    background:url("../img/Spore/Hintergrund/blauestuch.jpg"); 
+    background-repeat: repeat-y;  
+    background-color: black;
+    background-position:center;
+    background-size:100%;
+}
+
+.footer {
+    /*border-top: 2px solid #AB4E39;*/
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/*
+.main-navigation{
+    background:#23272A;
+    background: rgba(35, 39, 42, .5);
+    border-radius:5px;
+   border-bottom-left-radius: 40px 80px;
+   border-top-left-radius: 40px 80px;
+   
+}
+
+*/
+
+
+/* ************************** NAVIGATION ************************
+*****************************************************************/
+
+.basket {
+    font-size:12px;
+}
+
+.menu1width > li a {
+    width: 200px;    
+}
+
+.menu1 > li a{    
+    letter-spacing:5px;
+    text-transform: uppercase;
+    font-size:20px;
+    line-height: normal;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+
+    text-align:center;
+    color: #E5E3BA;
+    text-decoration: none;
+    
+    border-right: 1px solid #AB4E39;
+    border-left: 1px solid #8F421E;
+    
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    
+    
+    text-shadow: -2px 0 0.3em black, 0 2px 0.3em black,
+      2px 0 0.3em black, 0 -2px 0.3em black;
+      
+      transition: text-shadow none;
+      
+}
+
+
+
+
+.menu1 > li a:hover{
+    color: rgba(171, 78, 57, 1);  
+/*  background-color: rgba(171, 78, 57, 1); */
+    text-shadow: 0 0px 0 rgba(0, 0, 0, 0.5), 0 0 30px #FFFFFF, 0 0 40px #FFFFFF;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+    /*background-color:rgba(250, 250, 250,0.12);*/
+}
+
+/* ************************** SUB-NAVIGATION ************************
+*****************************************************************/
+
+.sidebar li {
+ /* background: rgba(35, 39, 42, .5);    
+  * 
+  */
+}
+
+
+.sidebar li a:hover{
+
+}

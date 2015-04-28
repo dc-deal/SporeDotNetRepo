@@ -1,0 +1,7 @@
+#section-wrapper{
+	width: 1050px;
+	height: 500px;
+	background:#000 !important;
+	background-repeat: repeat-y;
+	float: left;
+}
