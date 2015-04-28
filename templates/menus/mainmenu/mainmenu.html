@@ -1,6 +1,6 @@
 
 
-<nav class="navbar navbar-inverse" ng-controller="menuController as menuctrl">
+<nav class="navbar" ng-controller="menuController as menuctrl">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -9,25 +9,27 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="{{menuctrl.banner.link}}"> <img alt="Brand" id="banner" src="{{menuctrl.banner.imgTitle}}" title="{{menuctrl.banner.hint}}"> </a>
+			
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">		
-			<ul class="nav navbar-middle nav-pills head-menu menu1 menu1width">
-
-				<li ng-repeat="men in menuctrl.menuitems">
-					<a href="{{men.link}}">{{men.showName}}</a>
-				</li>
 			
-				<ul class="nav nav-pills navbar-right">
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class='glyphicon glyphicon-shopping-cart'></i><span class="basket">{{menuctrl.dropdownCapt}}</span><span class="caret"></span></a>
-						<ul class="dropdown-menu nav-pills nav-stacked sidebar menu1width" role="menu">
-							<li ng-repeat="mendd in menuctrl.dropDowns">
-								<a href="{{mendd.link}}">{{mendd.showName}}</a>
-							</li>
-						</ul>
+			<!-- http://jsfiddle.net/b7whs/67/ -->
+			
+			<div class="navbar-inner">	
+				<ul class="nav nav-pills head-menu menu1 menu1width">
+					<li ng-repeat="men in menuctrl.menuitems">
+						<a href="{{men.link}}">{{men.showName}}</a>
 					</li>
 				</ul>
-			</ul>
+								
+				<ul class="nav nav-center">
+					<a class="navbar-brand navbar-inner" href="{{menuctrl.banner.link}}"> <img alt="Brand" id="banner" src="{{menuctrl.banner.imgTitle}}" title="{{menuctrl.banner.hint}}"> </a>
+				</ul>
+				
+		        <ul class="nav pull-right">
+		            <li><a>Right</a></li>
+		        </ul>
+			</div>
+		</div>
 </nav>
 
