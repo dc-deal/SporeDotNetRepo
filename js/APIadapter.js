@@ -46,6 +46,12 @@ function APICall(httpINP,commandInp, parameters, readyFunction){
 // 		
 		var APIURL = 'php/BandAPI.php';
 		// Simple GET request example :
+		
+		
+		//$http.post("/login", credentials).then(function(response) {
+  //$httpProvider.defaults.headers.common["X-AUTH-TOKEN"] = response.data.token;
+//});
+		
 		httpINP({method:'POST',
 				url:APIURL,
 				data:{
