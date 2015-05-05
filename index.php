@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html class="no-js" lang="" ng-app="mainApp">
     <head>
@@ -46,7 +45,7 @@
 		<script src="components/SocialSideBar/js/socialbars.js"></script>
 		
 		<!-- meine API (für php) -->
-		<script src="js/APIadapter.js"></script>
+		<!-- <script src="js/APIadapter.js"></script> -->
 		
         <!--ANGULAR: main app file-->
         <script src="js/apps/mainapp.js"></script>

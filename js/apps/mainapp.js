@@ -4,7 +4,7 @@
  */
 (function() {
 	'use strict';
-	angular.module('mainApp', ['ngRoute'])
+	angular.module('mainApp', ['ngRoute','ngAnimate'])
 	.directive('wrapperMain', function(){
             return {
                 restrict: 'E',

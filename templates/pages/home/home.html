@@ -2,9 +2,11 @@
 	<a 
 	ng-repeat="art in artCtrl.articles"
 	ng-href="#/home/{{art.ID}}" 
+	ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}"
+	class="list-item "
 	><!-- art.ID DB feld kommt als grosse id an -->
-	<div class="panel panel-default">
-		<div class="panel-heading">
+	<div class="panel panel-default  list-item-under" >
+		<div class="panel-heading" >
 			{{art.Header}}
 		</div>		
 		<div class="panel-body">

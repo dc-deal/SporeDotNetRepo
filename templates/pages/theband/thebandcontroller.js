@@ -9,32 +9,32 @@
     .controller('bandpanelController', function ($http) {
 		this.images = innerImages;
 		var controller = this; // WICHTIG WEGEN DEM SCOPE... 
-		APICall(
-			$http,
-			'home',
-			{},
-			function(BandQuerstionsCall) { 
-				// what now???
-				// controller zuweisen...
-				controller.articles = BandQuerstionsCall; // controller sonst meint er die funktion selbst...
-				console.log(BandQuerstionsCall);
-			}
-		);
+		// APICall(
+			// $http,
+			// 'home',
+			// {},
+			// function(BandQuerstionsCall) { 
+				// // what now???
+				// // controller zuweisen...
+				// controller.articles = BandQuerstionsCall; // controller sonst meint er die funktion selbst...
+				// console.log(BandQuerstionsCall);
+			// }
+		// );
 		 
     })    
     .controller('bandpanelShowController', function ($http,$routeParams) {
     	var controller = this; // wichtig um den controller iun den fucntions anzusprechen
-		APICall(
-			$http,
-			'home',
-			{id : $routeParams.id},
-			function(BandQuerstionsCall) { 
-				// what now???
-				// controller zuweisen...
-				controller.article = BandQuerstionsCall; // controller sonst meint er die funktion selbst...
-				console.log(BandQuerstionsCall);
-			}
-		);    	
+		// APICall(
+			// $http,
+			// 'home',
+			// {id : $routeParams.id},
+			// function(BandQuerstionsCall) { 
+				// // what now???
+				// // controller zuweisen...
+				// controller.article = BandQuerstionsCall; // controller sonst meint er die funktion selbst...
+				// console.log(BandQuerstionsCall);
+			// }
+		// );    	
 		
 		this.saveArticle = function(article){
 			controller.errors = null;
